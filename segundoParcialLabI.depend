@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1606303070 source:c:\users\intel\documents\github\cabarcos.juani.labisp1a\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1601661110 source:c:\users\intel\documents\github\cabarcos.juani.labisp1a\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1601661108 c:\users\intel\documents\github\cabarcos.juani.labisp1a\utn.h
+
