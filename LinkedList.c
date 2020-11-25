@@ -23,7 +23,6 @@ LinkedList* ll_newLinkedList(void)
         this->size = 0;
 
     }
-
     return this;
 
 }
@@ -600,29 +599,43 @@ int ll_sort(LinkedList* this, int(*pFunc)(void* ,void*), int order)
     if(this != NULL && pFunc != NULL){
 
         filteredLL = ll_newLinkedList();
-
         if(filteredLL != NULL){
 
             for(int i = 0; i <  ll_len(this); i++){
 
                 aux = ll_get(this, i);
-                //if(aux != NULL){ dependiendo de si acepto nulls
+                if(pFunc(aux)){
 
-                    if(pFunc(aux)){
+                    ll_add(filteredLL, aux);
 
-                        ll_add(filteredLL, aux);
-
-                    }
-
-                //}
+                }
 
             }
-
 
         }
 
     }
     return filteredLL;
+
+}
+
+LinkedList* ll_map(LinkedList* this, void*(*pFunc)(void* elemento)){
+
+    void* elemento = NULL;
+    int largo;
+
+    if(this != NULL && pFunc != NULL){
+
+        largo  = ll_len(this);
+        for(int i=0; i < largo; i++){
+
+            elemento = ll_get(this, i);
+            pFunc(elemento);
+
+        }
+
+    }
+    return ll_clone(this);
 
 }
 

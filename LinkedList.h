@@ -59,4 +59,5 @@ int ll_sort(LinkedList* this, int(*pFunc)(void* ,void*), int order);
 
 // AGREGADAS
 LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*));
+LinkedList* ll_map(LinkedList* this, void*(*pFunc)(void* elemento));
 // si cumplen cierta condicion => devuelve 1 la funcion parametro, los agrego a la lista que retorno

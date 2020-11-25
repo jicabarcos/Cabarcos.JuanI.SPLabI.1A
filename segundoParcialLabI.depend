@@ -12,3 +12,74 @@
 
 1601661108 c:\users\intel\documents\github\cabarcos.juani.labisp1a\utn.h
 
+1606314931 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1606309438 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\linkedlist.h
+
+1601661110 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1601661108 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\utn.h
+
+1606316054 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"bicicletas.h"
+	"parser.h"
+
+1606316054 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\bicicletas.h
+	"LinkedList.h"
+
+1606310939 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\parser.h
+	"LinkedList.h"
+
+1606315090 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\funcionesadicionales.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	"funcionesAdicionales.h"
+	"bicicletas.h"
+	"utn.h"
+
+1606314215 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\funcionesadicionales.h
+
+1606316054 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\bicicletas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"bicicletas.h"
+	"utn.h"
+	"Controller.h"
+	"funcionesAdicionales.h"
+
+1606316054 c:\users\intel\documents\github\cabarcos.juani.splabi.1a\controller.h
+
+1606316155 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	"funcionesAdicionales.h"
+	"LinkedList.h"
+	"controller.h"
+	"bicicletas.h"
+
+1606311993 source:c:\users\intel\documents\github\cabarcos.juani.splabi.1a\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"bicicletas.h"
+
